@@ -2,6 +2,7 @@ using System.Threading.Tasks;
 using AuthHorn.Models;
 using AuthHorn.Repositories;
 using AuthHorn.Services;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AuthHorn.Controllers
@@ -12,6 +13,8 @@ namespace AuthHorn.Controllers
     {
         [HttpPost]
         [Route("login")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public async Task<ActionResult<dynamic>> AuthenticateAsync([FromBody] User model)
         {
             var user = UserRepository.Get(model.UserName, model.Password);

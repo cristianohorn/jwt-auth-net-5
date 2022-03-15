@@ -45,3 +45,8 @@ C:\Repos\jwt-auth-net-5\AuthHorn\obj\Debug\net5.0\AuthHorn.dll
 C:\Repos\jwt-auth-net-5\AuthHorn\obj\Debug\net5.0\ref\AuthHorn.dll
 C:\Repos\jwt-auth-net-5\AuthHorn\obj\Debug\net5.0\AuthHorn.pdb
 C:\Repos\jwt-auth-net-5\AuthHorn\obj\Debug\net5.0\AuthHorn.genruntimeconfig.cache
+C:\Repos\jwt-auth-net-5\AuthHorn\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Repos\jwt-auth-net-5\AuthHorn\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Repos\jwt-auth-net-5\AuthHorn\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Repos\jwt-auth-net-5\AuthHorn\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Repos\jwt-auth-net-5\AuthHorn\obj\Debug\net5.0\AuthHorn.MvcApplicationPartsAssemblyInfo.cs
